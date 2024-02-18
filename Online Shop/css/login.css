@@ -1,0 +1,128 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+.login {
+  position: relative;
+  max-width: 570px;
+  width: 100%;
+  padding: 25px;
+  border-radius: 8px;
+  background-color: #99FFCC;
+}
+.login h2 {
+  font-size: 25px;
+  font-weight: 600;
+  margin-top: 25px;
+  margin-left: 190px;
+  color: #333;
+}
+.login form {
+  margin-top: 50px;
+}
+form .field {
+  margin-bottom: 20px;
+}
+form .input-field {
+  position: relative;
+  height: 40px;
+  width: 85%;
+}
+.input-field input {
+  height: 100%;
+  width: 100%;
+  outline: none;
+  border: none;
+  border-radius: 8px;
+  padding: 0 15px;
+  border: 1px solid #d1d1d1;
+}
+.invalid input {
+  border-color: #d93025;
+}
+.input-field .show-hide {
+  position: absolute;
+  right: 13px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 18px;
+  color: #919191;
+  cursor: pointer;
+  padding: 3px;
+}
+.field .error {
+  display: flex;
+  align-items: center;
+  margin-top: 6px;
+  color: #d93025;
+  font-size: 13px;
+  display: none;
+}
+.invalid .error {
+  display: flex;
+}
+.error .error-icon {
+  margin-right: 6px;
+  font-size: 15px;
+}
+.create-password .error {
+  align-items: flex-start;
+}
+.create-password .error-icon {
+  margin-top: 4px;
+}
+.button {
+  margin: 25px 0 6px;
+}
+.button #sub{
+    width: 180px;
+    height: 40px;
+    margin-left: 150px;
+    border-radius: 8px;
+ 
+}
+.button input {
+  color: black;
+  font-size: 17px;
+ font-weight: bold;
+  background-color: #3cff9e;
+  border-color: #99FFCC;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.button input:hover {
+  background-color: #005780;
+}
+.signin{
+    text-decoration: none;
+    margin-left: 100px;
+    font-size: 16px;
+}
+.signin span a{
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+}
+
+ #check{
+  margin-left: 12px;
+}
+ .fp a{
+  float:right;
+ font-size: 15px;
+ font-weight: 300;
+ margin-right: 65px;
+font-style: italic;
+ text-decoration: underline;
+ }
